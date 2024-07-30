@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		B0728A522C592DFF00B7455F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A512C592DFF00B7455F /* AppDelegate.swift */; };
 		B0728A542C592DFF00B7455F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A532C592DFF00B7455F /* SceneDelegate.swift */; };
-		B0728A562C592DFF00B7455F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A552C592DFF00B7455F /* ViewController.swift */; };
+		B0728A562C592DFF00B7455F /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A552C592DFF00B7455F /* PickerViewController.swift */; };
 		B0728A592C592DFF00B7455F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B0728A582C592DFF00B7455F /* Base */; };
 		B0728A5B2C592E0000B7455F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0728A5A2C592E0000B7455F /* Assets.xcassets */; };
 		B0728A5E2C592E0000B7455F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B0728A5D2C592E0000B7455F /* Base */; };
+		B0728A672C592E8800B7455F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B0728A662C592E8800B7455F /* RxCocoa */; };
+		B0728A692C592E8800B7455F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B0728A682C592E8800B7455F /* RxSwift */; };
+		B0728A6B2C5930C900B7455F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6A2C5930C900B7455F /* TableViewController.swift */; };
+		B0728A6D2C59328200B7455F /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6C2C59328100B7455F /* UISwitchViewController.swift */; };
+		B0728A6F2C5933A300B7455F /* UITextFieldUIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0728A4E2C592DFF00B7455F /* RXSwift0730.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwift0730.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0728A512C592DFF00B7455F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0728A532C592DFF00B7455F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0728A552C592DFF00B7455F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0728A552C592DFF00B7455F /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		B0728A582C592DFF00B7455F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0728A5A2C592E0000B7455F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0728A5D2C592E0000B7455F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0728A5F2C592E0000B7455F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0728A6A2C5930C900B7455F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B0728A6C2C59328100B7455F /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
+		B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUIButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0728A692C592E8800B7455F /* RxSwift in Frameworks */,
+				B0728A672C592E8800B7455F /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +68,10 @@
 			children = (
 				B0728A512C592DFF00B7455F /* AppDelegate.swift */,
 				B0728A532C592DFF00B7455F /* SceneDelegate.swift */,
-				B0728A552C592DFF00B7455F /* ViewController.swift */,
+				B0728A552C592DFF00B7455F /* PickerViewController.swift */,
+				B0728A6A2C5930C900B7455F /* TableViewController.swift */,
+				B0728A6C2C59328100B7455F /* UISwitchViewController.swift */,
+				B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */,
 				B0728A572C592DFF00B7455F /* Main.storyboard */,
 				B0728A5A2C592E0000B7455F /* Assets.xcassets */,
 				B0728A5C2C592E0000B7455F /* LaunchScreen.storyboard */,
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = RXSwift0730;
+			packageProductDependencies = (
+				B0728A662C592E8800B7455F /* RxCocoa */,
+				B0728A682C592E8800B7455F /* RxSwift */,
+			);
 			productName = RXSwift0730;
 			productReference = B0728A4E2C592DFF00B7455F /* RXSwift0730.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = B0728A452C592DFF00B7455F;
+			packageReferences = (
+				B0728A652C592E8800B7455F /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = B0728A4F2C592DFF00B7455F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0728A562C592DFF00B7455F /* ViewController.swift in Sources */,
+				B0728A562C592DFF00B7455F /* PickerViewController.swift in Sources */,
+				B0728A6D2C59328200B7455F /* UISwitchViewController.swift in Sources */,
 				B0728A522C592DFF00B7455F /* AppDelegate.swift in Sources */,
 				B0728A542C592DFF00B7455F /* SceneDelegate.swift in Sources */,
+				B0728A6F2C5933A300B7455F /* UITextFieldUIButtonViewController.swift in Sources */,
+				B0728A6B2C5930C900B7455F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +384,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0728A652C592E8800B7455F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0728A662C592E8800B7455F /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0728A652C592E8800B7455F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B0728A682C592E8800B7455F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0728A652C592E8800B7455F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B0728A462C592DFF00B7455F /* Project object */;
 }
