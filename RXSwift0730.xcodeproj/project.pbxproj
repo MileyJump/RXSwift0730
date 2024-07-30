@@ -18,6 +18,7 @@
 		B0728A6B2C5930C900B7455F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6A2C5930C900B7455F /* TableViewController.swift */; };
 		B0728A6D2C59328200B7455F /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6C2C59328100B7455F /* UISwitchViewController.swift */; };
 		B0728A6F2C5933A300B7455F /* UITextFieldUIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */; };
+		B0728A712C59359600B7455F /* ObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A702C59359600B7455F /* ObservableExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B0728A6A2C5930C900B7455F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B0728A6C2C59328100B7455F /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 		B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUIButtonViewController.swift; sourceTree = "<group>"; };
+		B0728A702C59359600B7455F /* ObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B0728A6A2C5930C900B7455F /* TableViewController.swift */,
 				B0728A6C2C59328100B7455F /* UISwitchViewController.swift */,
 				B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */,
+				B0728A702C59359600B7455F /* ObservableExample.swift */,
 				B0728A572C592DFF00B7455F /* Main.storyboard */,
 				B0728A5A2C592E0000B7455F /* Assets.xcassets */,
 				B0728A5C2C592E0000B7455F /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0728A712C59359600B7455F /* ObservableExample.swift in Sources */,
 				B0728A562C592DFF00B7455F /* PickerViewController.swift in Sources */,
 				B0728A6D2C59328200B7455F /* UISwitchViewController.swift in Sources */,
 				B0728A522C592DFF00B7455F /* AppDelegate.swift in Sources */,
