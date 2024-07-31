@@ -11,9 +11,10 @@ import RxCocoa
 
 class UITextFieldUIButtonViewController: UIViewController {
     
-    let signName = UILabel()
-    let signEmail = UILabel()
+    let signName = UITextField()
+    let signEmail = UITextField()
     let signButton = UIButton()
+    let simpleLabel = UILabel()
     
     let disposeBag = DisposeBag()
     
@@ -44,7 +45,7 @@ class UITextFieldUIButtonViewController: UIViewController {
         
         signButton.rx.tap
             .subscribe { _ in
-                self.showAlert()
+//                self.showAlert()
             }
             .disposed(by: disposeBag)
     }
