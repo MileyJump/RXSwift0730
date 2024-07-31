@@ -22,6 +22,7 @@
 		B0728A762C5A750600B7455F /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A752C5A750600B7455F /* NumbersViewController.swift */; };
 		B0728A792C5A757800B7455F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B0728A782C5A757800B7455F /* SnapKit */; };
 		B0728A7B2C5A770400B7455F /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A7A2C5A770400B7455F /* SimpleValidationViewController.swift */; };
+		B0728A7D2C5A792300B7455F /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0728A7C2C5A792300B7455F /* SimpleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B0728A702C59359600B7455F /* ObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExample.swift; sourceTree = "<group>"; };
 		B0728A752C5A750600B7455F /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		B0728A7A2C5A770400B7455F /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		B0728A7C2C5A792300B7455F /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				B0728A6E2C5933A300B7455F /* UITextFieldUIButtonViewController.swift */,
 				B0728A752C5A750600B7455F /* NumbersViewController.swift */,
 				B0728A7A2C5A770400B7455F /* SimpleValidationViewController.swift */,
+				B0728A7C2C5A792300B7455F /* SimpleTableViewController.swift */,
 				B0728A702C59359600B7455F /* ObservableExample.swift */,
 				B0728A572C592DFF00B7455F /* Main.storyboard */,
 				B0728A5A2C592E0000B7455F /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 				B0728A522C592DFF00B7455F /* AppDelegate.swift in Sources */,
 				B0728A542C592DFF00B7455F /* SceneDelegate.swift in Sources */,
 				B0728A762C5A750600B7455F /* NumbersViewController.swift in Sources */,
+				B0728A7D2C5A792300B7455F /* SimpleTableViewController.swift in Sources */,
 				B0728A6F2C5933A300B7455F /* UITextFieldUIButtonViewController.swift in Sources */,
 				B0728A6B2C5930C900B7455F /* TableViewController.swift in Sources */,
 			);

@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: scene)
         
-        window?.rootViewController = NumbersViewController()
+        window?.rootViewController = SimpleTableViewExampleController()
 //        window?.rootViewController = BasicButtonViewController()
         window?.makeKeyAndVisible()
     }
